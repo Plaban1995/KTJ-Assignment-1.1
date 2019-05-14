@@ -1,0 +1,267 @@
+
+
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.menu{
+	margin: 0 auto;
+	width: 100%;
+}
+.logo{
+	margin-top: -62px;
+	float: left;
+	position: fixed;
+	background:#07466d;
+	width: 0%;
+	z-index: 20;
+	opacity: 0.7;
+
+}
+#logo:hover{
+	cursor: pointer;
+}
+#logo{
+	padding-left: 30px;
+	padding-top: 5px;
+}
+.nav{
+	background:#07466d;
+}
+.navbar{
+	margin-top: -62px;
+	background:#07466d;
+	width: 100%;
+	position: fixed;
+	padding-left: 50%;
+	z-index: 1;
+	opacity: 0.7;
+
+	
+}
+.navbar td{
+	border-bottom: 3px #d11414 solid;
+	height: 40px;
+	font-size: 1.5vw;
+	text-align: center;
+
+}
+.navbar td a{
+	color: white;
+	text-decoration: none;
+}
+.navbar td:hover{
+	background: #ff5454;
+	cursor: pointer;
+	border-color: white;
+	border-radius: 30px;
+	transform: scale(1.2);
+	transition-duration: 0.2s;
+	transition-property: all;
+	transition-timing-function: ease-in;
+}
+.navbar th{
+	color: white;
+	font-size: 20px;
+	padding-bottom: 5px;
+
+}
+.navbar th:hover{
+	cursor: pointer;
+
+}
+.content{
+	width: 80%;
+	opacity: 0.7;
+	text-align: center;
+}
+#intro{
+	z-index: 1;
+	margin: 0;
+}
+.introduction{
+	width: 100%;
+	margin: 0;	
+}
+.name{
+	padding-top: 125px; 
+	font-size: 5vw;
+	opacity: 10;
+	color: white;
+	word-spacing: 10px;
+}
+.search-box{
+	
+	position: relative;
+	padding-top: 300px;
+	transform: translate(110%, 10%);
+	width: 30%;
+	background: white;
+	height: 25px;
+	border-radius: 30px;
+	padding: 5px;
+	z-index: 20;
+	
+}
+.search-box:hover > .search-btn{
+	background: #B3B3B3;
+}
+.search-btn{
+	color: #CE0000;
+	float: right;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+.search-text{
+	padding-left: 10px;
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	color: black;
+	font-size: 15px;
+	transition: 0.4s;
+	line-height: 30px;
+	width: 240px;
+}
+.register{
+	background-color: white;
+	width: 10%;
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 20%;
+	font-weight: bold;
+}
+.register:hover{
+	background-color: red;
+	cursor: pointer;
+	width: 12%;
+	transform: scale(1.2);
+	transition-duration: 0.2s;
+	transition-property: all;
+	transition-timing-function: ease-in;
+
+}
+.register a{
+	text-decoration: none;
+	color: black;
+}
+.about p{
+	text-align: justify;
+	font-size: 1.8vw;
+}
+.about{
+	margin-top: 200px;
+	padding: 50px;
+	background-color: #9fe1f9;
+	border-radius: 3%;
+}
+
+.aboutevents{
+	text-align: center;
+	padding: 50px;
+	font-size: 1.7vw;
+	background-color: #9fe1f9;
+	border-radius: 3%;
+}
+.aboutevents tr td{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+.aboutevents tr th{
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+#sponsorsimg{
+	width: 100%;
+}
+.quicklinks1{
+	padding-top: 5px;
+	padding-left: 10%;
+	background-color: #07466d;
+	position: relative;
+	width: 45%;
+	height: 50px;
+	color: white;
+	float: left;
+}
+.quicklinks1 a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	width: 15%;
+}
+.quicklinks1 tr{
+	width: 100%;
+}
+.quicklinks1 tr td{
+	padding: 10px 100px 0 0;
+}
+.quicklinks1 tr td a:hover{
+	color: black;
+	cursor: pointer;
+	font-size: 17px;
+	transform: scale(1.5);
+	transition-duration: 0.2s;
+	transition-property: all;
+	transition-timing-function: ease-in;
+	
+}
+.quicklinks2{
+	padding-top: 13px;
+	background-color: #07466d;
+	position: relative;
+	width: 45%;
+	height: 42px;
+	float: right;
+	text-align: center;
+	word-spacing: 10px;
+	font-size: 2vw;
+}
+.quicklinks2 a:hover{
+	font-size: 2.4vw;
+	transform: scale(1.2);
+	transition-duration: 0.2s;
+	transition-property: all;
+	transition-timing-function: ease-in-out; 
+}
+.clear{
+	clear: both;
+}
+.rights{
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10%;
+	background-color: #07466d;
+	position: relative;
+	width: 90%;
+	color: white;
+}
+@media screen and (max-width: 600px;){
+	.menu{
+		width: 100%;
+	}
+	.navbar td {
+		position: fixed;
+	}
+	body{
+		background-image: url(image/intro.JPG);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+		}
+}
